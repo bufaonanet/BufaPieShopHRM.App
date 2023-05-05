@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaPieShopHRM.App", "BufaPieShopHRM.App\BufaPieShopHRM.App.csproj", "{4CE12657-E5DB-4791-9D18-7655FCEA6C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaPieShopHRM.Shared", "BufaPieShopHRM.Shared\BufaPieShopHRM.Shared.csproj", "{2076EE34-1224-447F-8DED-89AF93893E6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaPieShopHRM.Api", "BufaPieShopHRM.Api\BufaPieShopHRM.Api.csproj", "{154BA84E-D1DE-43F5-9915-2F2246D87F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaPieShopHRM.ComponentsLibrary", "BufaPieShopHRM.ComponentsLibrary\BufaPieShopHRM.ComponentsLibrary.csproj", "{08B479FD-0639-420C-B721-57C70FA76399}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaPieShopHRM.App.Tests", "BufaPieShopHRM.App.Tests\BufaPieShopHRM.App.Tests.csproj", "{04C089BA-FA11-4BC4-830C-BA515C19E4AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE12657-E5DB-4791-9D18-7655FCEA6C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE12657-E5DB-4791-9D18-7655FCEA6C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE12657-E5DB-4791-9D18-7655FCEA6C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE12657-E5DB-4791-9D18-7655FCEA6C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2076EE34-1224-447F-8DED-89AF93893E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2076EE34-1224-447F-8DED-89AF93893E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2076EE34-1224-447F-8DED-89AF93893E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2076EE34-1224-447F-8DED-89AF93893E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154BA84E-D1DE-43F5-9915-2F2246D87F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154BA84E-D1DE-43F5-9915-2F2246D87F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154BA84E-D1DE-43F5-9915-2F2246D87F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154BA84E-D1DE-43F5-9915-2F2246D87F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B479FD-0639-420C-B721-57C70FA76399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B479FD-0639-420C-B721-57C70FA76399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B479FD-0639-420C-B721-57C70FA76399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B479FD-0639-420C-B721-57C70FA76399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C089BA-FA11-4BC4-830C-BA515C19E4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C089BA-FA11-4BC4-830C-BA515C19E4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C089BA-FA11-4BC4-830C-BA515C19E4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C089BA-FA11-4BC4-830C-BA515C19E4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {890B177D-FEA7-4651-932D-2D5AAE2CC29E}
+	EndGlobalSection
+EndGlobal

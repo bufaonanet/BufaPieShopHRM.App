@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.15" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BufaPieShopHRM.ComponentsLibrary\BufaPieShopHRM.ComponentsLibrary.csproj" />
+    <ProjectReference Include="..\BufaPieShopHRM.Shared\BufaPieShopHRM.Shared.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <BlazorWebAssemblyLazyLoad Include="BufaPieShopHRM.ComponentsLibrary.dll" />
+  </ItemGroup>
+
+</Project>
